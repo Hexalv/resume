@@ -1,0 +1,29 @@
+BODY {background: #0f0f70;
+  margin: 0px;
+  padding: 0px;
+
+}
+A:link {color: #80FF00}
+A:visited {color: #FF00FF}
+H1 {font-size: 24pt; font-family: arial}
+H2 {font-size: 18pt; font-family: arial}
+H3 {font-size: 14pt; font-family: arial}    
+
+#tTop {
+  position: absolute;
+  width: 50%;
+  height: 10%;
+  background-color: #00f0f0;
+  border-radius: 4px;
+
+}
+
+#tBot {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  margin-left: 20%;
+  background-color: #00f0f0;
+  border-radius: 4px;
+
+}
