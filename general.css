@@ -1,7 +1,7 @@
-BODY {background: #0f0f70;
+BODY {background: #0f0f30;
   margin: 0px;
   padding: 0px;
-
+  
 }
 A:link {color: #80FF00}
 A:visited {color: #FF00FF}
@@ -9,21 +9,35 @@ H1 {font-size: 24pt; font-family: arial}
 H2 {font-size: 18pt; font-family: arial}
 H3 {font-size: 14pt; font-family: arial}    
 
+#t {
+  
+}
+
 #tTop {
+  position: fixed;
+  width: 75%;
+  background-color: #00f0f0;
+  border-radius: 4px;
+  
+}
+
+#tBot {
   position: absolute;
-  width: 50%;
-  height: 10%;
+  height: 100%;
+  margin-left: 30%;
   background-color: #00f0f0;
   border-radius: 4px;
 
 }
 
-#tBot {
+#ren {
   position: absolute;
-  width: 10%;
-  height: 100%;
-  margin-left: 20%;
-  background-color: #00f0f0;
-  border-radius: 4px;
-
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  color: #00f0f0; 
+  margin-top: 500px;
+  margin-left:50%;
+  font-weight: 900;       
+  line-height: 0%;
+  border: 2px solid white;
+  min-width: 10000px;
 }
