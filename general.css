@@ -1,7 +1,7 @@
-BODY {background-image: url("fractals.jpg");
+BODY {/*background-image: url("fractals.jpg");*/
   margin: 0px;
   padding: 0px;
-  
+  background-color: #123;
 }
 A:link {color: #80FF00}
 A:visited {color: #FF00FF}
@@ -15,4 +15,13 @@ H3 {font-size: 14pt; font-family: arial}
   width: 100%;
   background-color: lightgray;  
   opacity: 0.7;
+  z-index: 100;
+}
+
+#backG {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;  
 }
